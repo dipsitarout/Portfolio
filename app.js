@@ -22,6 +22,7 @@ function startTyping() {
     });
 }
 
+
 function cycleTitles() {
     document.getElementById("typing-title").textContent = "";
     typeText("typing-title", titles[titleIndex], 100, () => {
